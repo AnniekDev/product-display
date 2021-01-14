@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Merriweather", serif;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  background-color: #32a852;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  -webkit-clip-path: circle(520px at left 300px);
+          clip-path: circle(520px at left 300px);
+}
+
+.header {
+  padding: 20px 15px;
+  position: absolute;
+  width: 100%;
+  top: 4%;
+  left: 0;
+}
+
+.navigation ul {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.navigation ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.img__thumbnail {
+  padding: 7%;
+}
+
+.img__thumbnail li {
+  list-style: none;
+  position: relative;
+  margin-top: 50px;
+}
+
+.img__thumbnail img {
+  display: block;
+  max-width: 120px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img__thumbnail img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.img__large img {
+  position: absolute;
+  left: 19%;
+  top: 20%;
+  max-width: 550px;
+}
+
+.main__info {
+  position: absolute;
+  max-width: 40%;
+  right: 4%;
+  top: 30%;
+  color: white;
+  text-align: center;
+}
+
+.main__info p {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.main__info h1 {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.main__info h5 {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */
